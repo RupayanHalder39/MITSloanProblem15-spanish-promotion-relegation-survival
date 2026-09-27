@@ -1,0 +1,46 @@
+Metric,Value / Group A,Group B
+PROMOTION SIDE,,
+Number of episodes,18,
+Immediate relegation rate,5/18 (28%),
+Survived >= 2 seasons,10/18 (56%),
+Right-censored (still in La Liga),8/18,
+"Kaplan-Meier median survival (censoring-adjusted, seasons)",3.0,
+"Naive median survival duration (seasons), median [IQR] -- NOT censoring-adjusted, kept only for the group comparisons below","2.00 [1.00, 3.00]",
+"Median RRP, last Segunda season, median [IQR]","1.81 [1.44, 2.57]",
+"Median RRP, first La Liga season, median [IQR]","0.57 [0.38, 0.70]",
+"Median Promotion Resource Shock, median [IQR]","-1.27 [-1.87, -0.93]",
+"Median Promotion Resource Ratio, median [IQR]","0.25 [0.20, 0.36]",
+"Median squad market-value uplift (%), median [IQR]","78.38 [51.95, 141.63]",
+Clubs entering La Liga above league median (RRP > 1.0),0/18,
+,,
+Survivor (2+ seasons) vs. immediately-relegated comparison,Immediately relegated (n=5),Survived 2+ seasons (n=10)
+"  RRP, first La Liga season","0.38 [0.34, 0.57]","0.64 [0.42, 0.79]"
+"    -> rank-biserial r=0.40, Mann-Whitney p=0.254 (exploratory reference only)",,
+  Promotion Resource Shock,"-1.77 [-1.96, -1.59]","-1.27 [-1.87, -0.85]"
+"    -> rank-biserial r=0.24, Mann-Whitney p=0.513 (exploratory reference only)",,
+  Squad value uplift (%),"39.36 [19.58, 70.39]","107.13 [62.58, 179.64]"
+"    -> rank-biserial r=0.76, Mann-Whitney p=0.019 (exploratory reference only)",,
+  Prior Segunda points,"74.00 [72.00, 75.00]","70.00 [68.25, 78.75]"
+"    -> rank-biserial r=-0.32, Mann-Whitney p=0.357 (exploratory reference only)",,
+,,
+RELEGATION SIDE,,
+Number of episodes,18,
+"Kaplan-Meier median time to return (censoring-adjusted, seasons)",3.0,
+"Naive median time to return (seasons), median [IQR] -- NOT censoring-adjusted, kept only for the group comparisons below","2.00 [2.00, 2.75]",
+Returned within 2 seasons,7/18 (39%),
+Returned within window (any duration),10/18,
+Right-censored (not yet returned),8/18,
+Immediate return (next season),0/18 (0%),
+"Median RRP, last La Liga season, median [IQR]","0.53 [0.39, 0.65]",
+"Median RRP, first Segunda season, median [IQR]","2.09 [1.51, 2.57]",
+"Median Relegation Resource Shock, median [IQR]","1.55 [1.03, 1.89]",
+"Median Relegation Resource Ratio, median [IQR]","3.78 [3.24, 4.46]",
+Clubs landing in Segunda above league median (RRP > 1.0),18/18,
+,,
+Fast return (<=2 seasons) vs. not-returned comparison,Returned <=2 seasons (n=7),"Not returned, censored (n=8)"
+"  RRP, first Segunda season","2.62 [2.29, 3.04]","1.36 [1.24, 1.77]"
+"    -> rank-biserial r=-0.82, Mann-Whitney p=0.006 (exploratory reference only)",,
+  Relegation Resource Shock,"1.97 [1.62, 2.64]","0.98 [0.83, 1.09]"
+"    -> rank-biserial r=-0.86, Mann-Whitney p=0.004 (exploratory reference only)",,
+"  RRP, last La Liga season","0.57 [0.43, 0.71]","0.44 [0.37, 0.60]"
+"    -> rank-biserial r=-0.32, Mann-Whitney p=0.336 (exploratory reference only)",,
